@@ -4,6 +4,6 @@
    - HTML
    - SCSS
    - WEBPACK
-   - Vanilla JS
+   - VANILLA JS
 3. Demo link:
     - [https://moskkat40.github.io/2048-game/](https://moskkat40.github.io/2048-game/)
