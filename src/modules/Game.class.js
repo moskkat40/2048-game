@@ -308,12 +308,12 @@ class Game {
     for (let row = 0; row < this.grid.length; row++) {
       for (let col = 0; col < this.grid[row].length; col++) {
         if (
-          (row > 0 && this.grid[row][col] === this.grid[row - 1][col]) ||
-          (row < this.grid.length - 1 &&
-            this.grid[row][col] === this.grid[row + 1][col]) ||
-          (col > 0 && this.grid[row][col] === this.grid[row][col - 1]) ||
-          (col < this.grid[row].length - 1 &&
-            this.grid[row][col] === this.grid[row][col + 1])
+          (row > 0 && this.grid[row][col] === this.grid[row - 1][col])
+          || (row < this.grid.length - 1
+            && this.grid[row][col] === this.grid[row + 1][col])
+          || (col > 0 && this.grid[row][col] === this.grid[row][col - 1])
+          || (col < this.grid[row].length - 1
+            && this.grid[row][col] === this.grid[row][col + 1])
         ) {
           this.status = 'playing';
 
